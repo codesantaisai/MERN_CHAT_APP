@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
 .App {
+  min-height: 100vh;
   text-align: center;
+  /* display: flex; */
+  background-image: url("./background.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.App-logo {
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +43,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
